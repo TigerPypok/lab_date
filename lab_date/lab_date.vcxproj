@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="date_utils.cpp" />
     <ClCompile Include="lab_date.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="date_utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
